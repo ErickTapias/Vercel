@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/manage/route": "app/api/manage/route.js",
+  "/api/payroll/route": "app/api/payroll/route.js",
+  "/page": "app/page.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/api/data/route": "app/api/data/route.js",
+  "/api/operations/route": "app/api/operations/route.js",
+  "/api/health/route": "app/api/health/route.js",
+  "/api/bcv/route": "app/api/bcv/route.js",
+  "/api/backup/route": "app/api/backup/route.js",
+  "/api/digital-printer/route": "app/api/digital-printer/route.js",
+  "/operations/conciliation/page": "app/operations/conciliation/page.js",
+  "/operations/page": "app/operations/page.js",
+  "/operations/contingency/page": "app/operations/contingency/page.js"
+}
