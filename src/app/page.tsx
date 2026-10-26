@@ -1,9 +1,11 @@
-import FinaApp from "@/components/fina-app";
-import { getData } from "@/lib/data";
-
-export const dynamic = "force-dynamic";
-
-export default async function HomePage() {
-  const data = await getData();
-  return <FinaApp initialData={data} />;
+export default function HomePage() {
+  return (
+    <div style={{ padding: '50px', textAlign: 'center', fontFamily: 'Arial' }}>
+      <h1>✅ Servidor Funcionando</h1>
+      <p>Next.js está corriendo correctamente</p>
+      <p style={{ color: 'orange', marginTop: '20px' }}>
+        ⚠️ Base de datos: Pendiente de configurar
+      </p>
+    </div>
+  );
 }
