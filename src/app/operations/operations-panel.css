@@ -1,0 +1,62 @@
+/* UI AISLADA · FASE 5 — namespace único `.operations-panel__*` (no interfiere con estilos existentes) */
+.operations-panel__container { display: flex; flex-direction: column; gap: 18px; }
+.operations-panel__hero {
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  background: linear-gradient(120deg, #0b3b53 0%, #0e5c78 58%, #1286a3 100%);
+  color: #f3fbff; border-radius: 13px; padding: 21px 26px;
+}
+.operations-panel__hero h2 { font-size: 20px; font-weight: 800; margin: 5px 0 5px; letter-spacing: -.3px; }
+.operations-panel__hero p { font-size: 11px; color: #d5f2fb; line-height: 1.65; max-width: 720px; margin: 0; }
+.operations-panel__eyebrow { font-size: 8.5px; letter-spacing: 1.3px; font-weight: 800; color: #b8e7f4; }
+.operations-panel__legal-chip {
+  display: inline-flex; align-items: center; gap: 6px; background: #e9f8ff; color: #0b556c;
+  font-size: 9px; font-weight: 800; letter-spacing: .4px; padding: 5px 9px; border-radius: 999px; border: 1px solid #bde7f5;
+}
+.operations-panel__card { background: #fff; border: 1px solid #e2ecf3; border-radius: 12px; padding: 20px; }
+.operations-panel__fiscal-lock {
+  display: flex; gap: 12px; background: #f5fbfd; border: 1px solid #d9edf5; border-radius: 10px; padding: 15px 17px;
+}
+.operations-panel__fiscal-lock h4 { font-size: 11px; letter-spacing: .8px; text-transform: uppercase; color: #0e627e; margin: 0 0 7px; }
+.operations-panel__fiscal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 18px; }
+.operations-panel__fiscal-grid span { display: block; font-size: 9px; color: #527387; text-transform: uppercase; letter-spacing: .5px; }
+.operations-panel__fiscal-grid strong { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12px; color: #0b3b53; }
+.operations-panel__immutable { font-size: 8.5px; color: #0e627e; font-weight: 800; letter-spacing: .5px; margin-top: 8px; display: block; }
+.operations-panel__summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.operations-panel__metric { border: 1px solid #e2ecf3; border-radius: 10px; padding: 13px 15px; background: #f8fbfd; }
+.operations-panel__metric span { display: block; font-size: 9px; color: #527387; text-transform: uppercase; letter-spacing: .6px; }
+.operations-panel__metric strong { display: block; margin-top: 5px; font-family: ui-monospace, monospace; font-size: 17px; color: #0b556c; }
+.operations-panel__metric--pending { background: #fff8e8; border-color: #f2dfac; }
+.operations-panel__metric--pending strong { color: #926112; }
+.operations-panel__metric--done { background: #eef9f3; border-color: #cbe9d8; }
+.operations-panel__metric--done strong { color: #22734b; }
+.operations-panel__grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .85fr); gap: 16px; }
+.operations-panel__form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.operations-panel__form-grid label { font-size: 9.5px; color: #40627a; font-weight: 600; display: flex; flex-direction: column; gap: 6px; }
+.operations-panel__form-grid input, .operations-panel__form-grid select, .operations-panel__form-grid textarea {
+  height: 36px; border: 1px solid #dce8ef; border-radius: 6px; padding: 0 10px; font-size: 11px; color: #164052; background: #fff;
+}
+.operations-panel__form-grid textarea { height: auto; padding: 9px 10px; resize: vertical; }
+.operations-panel__btn {
+  height: 36px; padding: 0 15px; border-radius: 7px; font-size: 11px; font-weight: 700;
+  background: #0e5c78; color: #fff; display: inline-flex; align-items: center; gap: 7px;
+}
+.operations-panel__btn:hover { background: #0b4c64; }
+.operations-panel__btn--ghost { background: #eef5f8; color: #0e5c78; border: 1px solid #d3e4ec; }
+.operations-panel__btn--ghost:hover { background: #e2eff4; }
+.operations-panel__table { width: 100%; border-collapse: collapse; font-size: 10px; }
+.operations-panel__table th { text-align: left; font-size: 9px; letter-spacing: .5px; text-transform: uppercase; color: #3c718a; background: #f4fafc; border-bottom: 1px solid #dfeef4; padding: 9px 10px; }
+.operations-panel__table td { padding: 10px; border-bottom: 1px solid #eaf2f6; color: #315a6d; vertical-align: middle; }
+.operations-panel__table input, .operations-panel__table select { height: 29px; border: 1px solid #dce8ef; border-radius: 5px; padding: 0 8px; font-size: 10px; color: #164052; width: 100%; }
+.operations-panel__tag { display: inline-flex; padding: 3px 7px; border-radius: 999px; font-size: 8.5px; font-weight: 800; letter-spacing: .3px; }
+.operations-panel__tag--pending { background: #fff4d7; color: #8a6414; }
+.operations-panel__tag--done { background: #e6f6ed; color: #1e704a; }
+.operations-panel__tag--void { background: #f2f4f6; color: #78848c; }
+.operations-panel__audit { background: #f8fbfd; border: 1px solid #e2eef4; border-radius: 10px; padding: 13px; }
+.operations-panel__audit h4 { font-size: 10px; text-transform: uppercase; letter-spacing: .7px; color: #0e627e; margin: 0 0 8px; }
+.operations-panel__audit-row { display: flex; gap: 8px; align-items: flex-start; padding: 7px 0; border-bottom: 1px dashed #e2edf2; font-size: 9.5px; color: #41687c; }
+.operations-panel__audit-row strong { color: #13465b; }
+.operations-panel__empty { padding: 34px 18px; text-align: center; color: #7fa0b0; font-size: 11px; }
+@media (max-width: 760px) {
+  .operations-panel__grid, .operations-panel__fiscal-grid, .operations-panel__summary, .operations-panel__form-grid { grid-template-columns: 1fr; }
+  .operations-panel__hero { flex-direction: column; align-items: flex-start; }
+}

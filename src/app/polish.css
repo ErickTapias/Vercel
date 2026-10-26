@@ -1,0 +1,1325 @@
+/* ESTILOS MODERNOS Y VISUALES PARA TESORIO · FACTURACIÓN SENIAT & FÁBRICA CRISTO REY */
+
+.company-active-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+  border: 1px solid #e9d5ff;
+  border-radius: 9px;
+  margin: 4px 12px 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.company-active-badge:hover {
+  background: #f3e8ff;
+  border-color: #d8b4fe;
+  transform: translateY(-1px);
+}
+.company-logo-slot {
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #e9d5ff;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.company-mini-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.company-text {
+  min-width: 0;
+  flex: 1;
+}
+.company-text strong {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #581c87;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.company-text small {
+  display: block;
+  font-size: 8.5px;
+  color: #7e22ce;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.header-logo-container {
+  height: 36px;
+  min-width: 36px;
+  max-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 8px;
+  padding: 2px 6px;
+  overflow: hidden;
+}
+.header-company-logo {
+  max-height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+.header-company-info {
+  text-align: left;
+}
+.header-company-info strong {
+  display: block;
+  font-size: 12.5px;
+  color: #0f172a;
+}
+
+.bcv-rate-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.bcv-dot {
+  width: 7px;
+  height: 7px;
+  background: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #d1fae5;
+}
+
+.nav-count-fiscal {
+  margin-left: auto;
+  background: #7c3aed;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 8px;
+  font-weight: 700;
+  padding: 2px 5px;
+  letter-spacing: 0.5px;
+}
+
+/* TARJETA DE ESTADO SENIAT */
+.seniat-status-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, #fbfcfe 0%, #f1f5f9 100%);
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.seniat-badge {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: #7c3aed;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.25);
+}
+.seniat-info {
+  flex: 1;
+}
+.seniat-tagline {
+  font-size: 9px;
+  font-weight: 800;
+  color: #6d28d9;
+  letter-spacing: 1.2px;
+  margin-bottom: 4px;
+}
+.seniat-info h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+.seniat-info p {
+  font-size: 11px;
+  color: #475569;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0;
+}
+.seniat-controls {
+  text-align: right;
+  flex-shrink: 0;
+}
+.seniat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #86efac;
+}
+.seniat-controls small {
+  display: block;
+  font-size: 9px;
+  color: #64748b;
+  margin-top: 6px;
+}
+
+.audit-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 20px;
+}
+.audit-filter-bar .filter-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.audit-filter-bar .filter-title strong {
+  display: block;
+  font-size: 12px;
+  color: #1e293b;
+}
+.audit-filter-bar .filter-title small {
+  display: block;
+  font-size: 10px;
+  color: #64748b;
+}
+.audit-filter-bar .date-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.audit-filter-bar .date-inputs label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #475569;
+}
+.audit-filter-bar .date-inputs input {
+  height: 34px;
+  border-radius: 6px;
+  font-size: 11px;
+  padding: 0 8px;
+}
+
+/* TABLAS DE AUDITORIA FISCAL */
+.audit-table th {
+  font-size: 9px !important;
+  padding: 10px 12px !important;
+  background: #f1f5f9;
+}
+.audit-table td {
+  font-size: 10px !important;
+  padding: 10px 12px !important;
+  font-family: inherit;
+}
+
+.audit-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 14px;
+}
+.audit-check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.audit-check-item strong {
+  display: block;
+  font-size: 12px;
+  color: #0f172a;
+}
+.audit-check-item p {
+  font-size: 10.5px;
+  color: #64748b;
+  margin: 2px 0 0;
+  line-height: 1.4;
+}
+
+/* FACTURA FISCAL DIGITAL VISUAL */
+.fiscal-header-card {
+  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.receipt-customer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.receipt-customer-box strong {
+  font-size: 13px;
+  color: #0f172a;
+  display: block;
+  margin: 2px 0;
+}
+.fiscal-summary-box {
+  background: #faf5ff;
+  border: 1px solid #e9d5ff;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-top: 14px;
+}
+
+/* TERMINAL DE TALLER & KANBAN OPERATIVO */
+.production-header-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  background: linear-gradient(135deg, #fbfcfe 0%, #f3e8ff 100%);
+  border: 1px solid #d8b4fe;
+  border-radius: 12px;
+}
+.theme-dark .production-header-banner {
+  background: linear-gradient(135deg, #1c1438 0%, #160f2e 100%);
+  border-color: #3b2866;
+}
+.production-icon-badge {
+  width: 50px;
+  height: 50px;
+  background: #7c3aed;
+  color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25);
+  flex-shrink: 0;
+}
+
+.production-kanban-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+@media (max-width: 1050px) {
+  .production-kanban-board {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kanban-column {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 480px;
+}
+.theme-dark .kanban-column {
+  background: #151126;
+  border-color: #272145;
+}
+
+.kanban-col-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.empty-kanban-slot {
+  padding: 40px 16px;
+  text-align: center;
+  font-size: 11px;
+  color: #94a3b8;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.theme-dark .empty-kanban-slot {
+  border-color: #332b57;
+  color: #64748b;
+}
+
+.production-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 14px;
+  transition: all 0.15s ease;
+}
+.theme-dark .production-card {
+  background: #1b1731;
+  border-color: #2d2652;
+}
+.production-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.order-tag {
+  font-size: 11px;
+  color: #7c3aed;
+  background: #f3e8ff;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+.theme-dark .order-tag {
+  background: #31215b;
+  color: #d8b4fe;
+}
+
+.priority-pill {
+  font-size: 9px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+/* ENHANCED RECEIPT TABLE STYLES */
+.receipt-items-table th {
+  font-size: 10px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 12px !important;
+}
+.receipt-items-table td {
+  padding: 10px 12px !important;
+}
+
+/* SIDEBAR LOGOUT */
+.sidebar-profile-box {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  width: calc(100% + 30px);
+  margin: 13px -15px 0;
+  padding-right: 12px;
+}
+.sidebar-profile-box .sidebar-profile {
+  border-top: 0;
+  margin: 0;
+  width: auto;
+  flex: 1;
+}
+.sidebar-logout-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  color: #94a3b8;
+  transition: all 0.15s;
+}
+.sidebar-logout-btn:hover {
+  background: #fee2e2;
+  color: #ef4444;
+}
+
+/* LOGIN VIEW STYLES */
+.login-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  position: relative;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.login-page-container.theme-light {
+  background: linear-gradient(135deg, #f8f6fc 0%, #f1ecf9 50%, #ede5f8 100%);
+  color: #1e1b2e;
+}
+.login-page-container.theme-dark {
+  background: linear-gradient(135deg, #0b0a14 0%, #110e20 50%, #16122c 100%);
+  color: #f8fafc;
+}
+
+.login-top-bar {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+}
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #334155;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.theme-dark .theme-toggle-btn {
+  background: #1e1b33;
+  border-color: #312b54;
+  color: #e2e8f0;
+}
+.theme-toggle-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(124, 58, 237, 0.15);
+}
+
+.login-card-wrapper {
+  width: 100%;
+  max-width: 440px;
+  margin: auto;
+}
+.login-card {
+  background: #ffffff;
+  border: 1px solid #e2d9f3;
+  border-radius: 18px;
+  padding: 36px 32px;
+  box-shadow: 0 20px 50px -10px rgba(124, 58, 237, 0.12);
+  transition: all 0.25s;
+}
+.theme-dark .login-card {
+  background: #18152c;
+  border-color: #302856;
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.login-brand-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+}
+.login-brand-tag {
+  font-size: 10px;
+  font-weight: 800;
+  color: #7c3aed;
+  background: #ede9fe;
+  padding: 2px 7px;
+  border-radius: 12px;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+}
+.theme-dark .login-brand-tag {
+  background: #3b2075;
+  color: #c4b5fd;
+}
+.login-subtitle {
+  font-size: 11.5px;
+  color: #64748b;
+  margin-top: 6px;
+}
+.theme-dark .login-subtitle {
+  color: #94a3b8;
+}
+
+.login-company-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #faf5ff;
+  border: 1px solid #e9d5ff;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+.theme-dark .login-company-badge {
+  background: #211c3d;
+  border-color: #3c326b;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-with-icon svg {
+  position: absolute;
+  left: 12px;
+  color: #94a3b8;
+  pointer-events: none;
+}
+.input-with-icon input {
+  padding-left: 36px !important;
+}
+
+.password-toggle-eye-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  border-radius: 6px;
+  z-index: 10;
+  transition: color 0.15s, background 0.15s;
+}
+.password-toggle-eye-btn:hover {
+  color: #7c3aed;
+  background: #f3e8ff;
+}
+.theme-dark .password-toggle-eye-btn {
+  color: #94a3b8;
+}
+.theme-dark .password-toggle-eye-btn:hover {
+  color: #c4b5fd;
+  background: #281e4b;
+}
+.password-toggle-eye-btn svg {
+  position: static !important;
+  pointer-events: auto !important;
+}
+
+.login-submit-btn {
+  height: 44px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  border-radius: 9px !important;
+}
+
+.demo-credentials-box {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 8px;
+}
+.theme-dark .demo-credentials-box {
+  background: #1e1937;
+  border-color: #3b3363;
+}
+
+.login-footer {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+  text-align: center;
+}
+.theme-dark .login-footer {
+  border-color: #272244;
+}
+
+/* DARK / NIGHT THEME GLOBAL OVERRIDES */
+.theme-dark {
+  --bg: #0d0c18;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --line: #221f37;
+  color: #f1f5f9;
+  background: #0d0c18;
+}
+.theme-dark .sidebar {
+  background: #141224;
+  border-color: #221e3c;
+}
+.theme-dark .topbar {
+  background: #141224f2;
+  border-color: #221e3c;
+}
+.theme-dark .card {
+  background: #18152b;
+  border-color: #2b254d;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+.theme-dark .section-head h2,
+.theme-dark .page-heading h1,
+.theme-dark .header-company-info strong,
+.theme-dark .welcome-copy h2 {
+  color: #f8fafc !important;
+}
+.theme-dark .kpi-card {
+  background: #18152b !important;
+  border-color: #2b254d;
+}
+.theme-dark .kpi-value {
+  color: #f8fafc;
+}
+.theme-dark .kpi-top {
+  color: #94a3b8;
+}
+.theme-dark .welcome-banner {
+  background: linear-gradient(135deg, #221945 0%, #1a1438 100%);
+  border-color: #382c6c;
+}
+.theme-dark .welcome-copy p {
+  color: #c4b5fd;
+}
+.theme-dark .global-search {
+  background: #1c1834;
+  border-color: #2e2754;
+  color: #cbd5e1;
+}
+.theme-dark .global-search input {
+  color: #f8fafc;
+}
+.theme-dark .data-table th {
+  background: #141126;
+  border-color: #272148;
+  color: #cbd5e1;
+}
+.theme-dark .data-table td {
+  border-color: #241e42;
+  color: #cbd5e1;
+}
+.theme-dark .data-table tbody tr:hover {
+  background: #211c3c;
+}
+.theme-dark .button.secondary {
+  background: #1c1834;
+  border-color: #322b5c;
+  color: #e2e8f0;
+}
+.theme-dark .button.secondary:hover {
+  background: #262046;
+  border-color: #7c3aed;
+  color: #c4b5fd;
+}
+.theme-dark .modal {
+  background: #18152c;
+  border-color: #332b5d;
+  color: #f8fafc;
+}
+.theme-dark .modal-header,
+.theme-dark .modal-footer {
+  background: #18152c;
+  border-color: #28214b;
+}
+.theme-dark .modal-header h2 {
+  color: #f8fafc;
+}
+.theme-dark label input,
+.theme-dark label select,
+.theme-dark label textarea {
+  background: #120f24;
+  border-color: #2d2654;
+  color: #f8fafc;
+}
+.theme-dark .seniat-status-card {
+  background: linear-gradient(135deg, #1f193c 0%, #16122c 100%);
+  border-color: #342a63;
+}
+.theme-dark .seniat-info h3 {
+  color: #f8fafc;
+}
+.theme-dark .seniat-info p {
+  color: #cbd5e1;
+}
+.theme-dark .company-active-badge {
+  background: #1e1937;
+  border-color: #3b3068;
+}
+.theme-dark .company-text strong {
+  color: #e9d5ff;
+}
+.theme-dark .header-logo-container {
+  background: #1c1834;
+  border-color: #312858;
+}
+.theme-dark .fiscal-header-card,
+.theme-dark .receipt-customer-box {
+  background: #1c1834;
+  border-color: #2e2654;
+}
+.theme-dark .receipt-customer-box strong,
+.theme-dark .fiscal-header-card h3 {
+  color: #f8fafc;
+}
+.theme-dark .dropdown {
+  background: #18152b;
+  border-color: #312759;
+}
+.theme-dark .dropdown-heading {
+  border-color: #2b2250;
+  color: #f8fafc;
+}
+.theme-dark .notifications > button:hover {
+  background: #211c3b;
+}
+.theme-dark .search-results {
+  background: #18152b;
+  border-color: #312759;
+}
+.theme-dark .search-results strong {
+  color: #f8fafc;
+}
+.theme-dark .search-results > button:hover {
+  background: #211c3b;
+}
+.theme-dark .product-profit-preview {
+  background: #1c1834;
+  border-color: #312856;
+}
+.theme-dark .audit-table th {
+  background: #16122a;
+}
+.theme-dark .bcv-rate-pill {
+  background: #064e3b;
+  border-color: #059669;
+  color: #a7f3d0;
+}
+.theme-dark .bcv-dot {
+  background: #34d399;
+  box-shadow: 0 0 0 2px #065f46;
+}
+.theme-dark .category-pills button {
+  background: #1c1834;
+  border-color: #312856;
+  color: #cbd5e1;
+}
+.theme-dark .pos-product {
+  background: #18152b;
+  border-color: #2d2654;
+}
+.theme-dark .pos-product-details h3 {
+  color: #f8fafc;
+}
+.theme-dark .cart-card {
+  background: #18152b;
+  border-color: #2d2654;
+}
+.theme-dark .cart-heading h2 {
+  color: #f8fafc;
+}
+.theme-dark .cart-item strong {
+  color: #f8fafc;
+}
+.theme-dark .dining-table {
+  background: #18152b;
+  border-color: #2d2654;
+}
+.theme-dark .dining-table h3 {
+  color: #f8fafc;
+}
+.theme-dark .help-card {
+  background: #1e1937;
+  border-color: #362c66;
+}
+.theme-dark .help-card h4 {
+  color: #e9d5ff;
+}
+.theme-dark .help-card p {
+  color: #c4b5fd;
+}
+.theme-dark .help-card button {
+  border-color: #362c66;
+  color: #a78bfa;
+}
+.theme-dark .help-card-icon {
+  background: #31255e;
+  color: #c4b5fd;
+}
+.theme-dark .nav-item {
+  color: #94a3b8;
+}
+.theme-dark .nav-item:hover {
+  background: #211c3d;
+  color: #c4b5fd;
+}
+.theme-dark .nav-item.active {
+  background: #2d2258;
+  color: #c4b5fd;
+}
+.theme-dark .active-dot {
+  background: #a78bfa;
+}
+.theme-dark .nav-count {
+  background: #211c3b;
+  color: #c4b5fd;
+}
+.theme-dark .tabs > button {
+  color: #94a3b8;
+}
+.theme-dark .tabs > button.active {
+  color: #a78bfa;
+  border-color: #a78bfa;
+}
+.theme-dark .tabs > button > span {
+  background: #241e42;
+  color: #c4b5fd;
+}
+.theme-dark .inventory-summary,
+.theme-dark .bank-account-card {
+  background: #18152b;
+  border-color: #2d2654;
+}
+.theme-dark .inventory-summary strong,
+.theme-dark .bank-card-top strong {
+  color: #f8fafc;
+}
+.theme-dark .inventory-summary > div,
+.theme-dark .inventory-summary > button {
+  border-color: #241e42;
+}
+.theme-dark .table-toolbar {
+  border-color: #241e42;
+}
+.theme-dark .table-footer {
+  border-color: #241e42;
+  color: #94a3b8;
+}
+.theme-dark .table-footer strong {
+  color: #f8fafc;
+}
+.theme-dark .search-field {
+  background: #120f24;
+  border-color: #2b2552;
+  color: #f8fafc;
+}
+.theme-dark .search-field input {
+  color: #f8fafc;
+}
+.theme-dark .table-toolbar select,
+.theme-dark .pos-toolbar select {
+  background: #120f24;
+  border-color: #2b2552;
+  color: #f8fafc;
+}
+.theme-dark .filter-bar {
+  border-color: #241e42;
+  color: #94a3b8;
+}
+.theme-dark .filter-bar select {
+  color: #f8fafc;
+}
+.theme-dark .profit-loss-rows > div {
+  border-color: #241e42;
+}
+.theme-dark .profit-loss-rows > div > span > strong {
+  color: #f8fafc;
+}
+.theme-dark .profit-loss-rows > div.subtotal {
+  background: #1f1a39;
+}
+.theme-dark .profit-loss-rows > div.total {
+  background: #2b1f54;
+  border-color: #433380;
+}
+.theme-dark .profit-loss-rows > div.total > strong,
+.theme-dark .profit-loss-rows > div.total > span > strong {
+  color: #ffffff;
+}
+.theme-dark .margin-ring > div {
+  background: #18152b;
+}
+.theme-dark .capital-grid > div {
+  border-color: #241e42;
+}
+.theme-dark .capital-total {
+  background: #1d1736;
+  border-color: #2d2454;
+  color: #e2e8f0;
+}
+.theme-dark .marketing-hero {
+  background: linear-gradient(135deg, #221845 0%, #181335 100%);
+  border-color: #392b6e;
+}
+.theme-dark .marketing-hero h2 {
+  color: #f8fafc;
+}
+.theme-dark .marketing-hero p {
+  color: #c4b5fd;
+}
+.theme-dark .marketing-hero-icon {
+  background: #2b1f58;
+  color: #c4b5fd;
+}
+.theme-dark .campaign-card {
+  background: #18152b;
+  border-color: #2d2654;
+}
+.theme-dark .campaign-card h3 {
+  color: #f8fafc;
+}
+.theme-dark .campaign-card > p {
+  color: #cbd5e1;
+}
+.theme-dark .team-banner {
+  background: #1e1937;
+  border-color: #362c66;
+}
+.theme-dark .team-banner h3 {
+  color: #f8fafc;
+}
+.theme-dark .team-banner p {
+  color: #cbd5e1;
+}
+.theme-dark .settings-business {
+  border-color: #262046;
+}
+.theme-dark .settings-business h3 {
+  color: #f8fafc;
+}
+.theme-dark .settings-nav a {
+  color: #94a3b8;
+}
+.theme-dark .settings-nav a.active,
+.theme-dark .settings-nav a:hover {
+  background: #241d44;
+  color: #c4b5fd;
+}
+.theme-dark .workspace-footer {
+  color: #64748b;
+}
+
+
+/* AJUSTE PARA EVITAR TEXTOS CORTADOS EN EL PANEL LATERAL IZQUIERDO */
+.sidebar {
+  width: 310px !important;
+}
+.workspace {
+  margin-left: 310px !important;
+}
+.nav-item {
+  height: 40px !important;
+  font-size: 12px !important;
+  padding: 0 14px !important;
+  gap: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+.nav-text {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  font-size: 11.5px !important;
+  flex: 1 !important;
+  padding-right: 6px !important;
+}
+.nav-count-fiscal {
+  font-size: 8.5px !important;
+  padding: 2px 6px !important;
+  flex-shrink: 0 !important;
+  margin-left: auto !important;
+}
+.sidebar-tagline {
+  font-size: 9.5px !important;
+  white-space: normal !important;
+  line-height: 1.3 !important;
+}
+.sidebar-profile strong {
+  font-size: 11px !important;
+}
+
+/* COMPACTACIÓN AL 50% DE LAS TARJETAS DE PRODUCTOS EN INVENTARIO */
+.inventory-grid {
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important;
+  gap: 10px !important;
+  padding: 12px !important;
+}
+.inventory-product-card {
+  border-radius: 8px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+  overflow: hidden !important;
+  transition: all 0.15s ease !important;
+}
+.inventory-product-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 10px rgba(124, 58, 237, 0.12) !important;
+}
+.inventory-product-card > .product-image {
+  height: 72px !important;
+  width: 100% !important;
+}
+.inventory-product-card > div {
+  padding: 5px 8px !important;
+}
+.inventory-product-card .tiny-label {
+  font-size: 7.5px !important;
+  line-height: 1 !important;
+}
+.inventory-product-card h3 {
+  font-size: 10px !important;
+  line-height: 1.2 !important;
+  margin: 2px 0 !important;
+  height: 24px !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+.inventory-grid-stock {
+  font-size: 8.5px !important;
+  color: #7c3aed !important;
+  font-weight: 700 !important;
+  display: block !important;
+}
+.inventory-product-card strong {
+  font-size: 11.5px !important;
+  margin-top: 2px !important;
+  display: block !important;
+}
+
+/* MANEJO LIMPIO Y PROLIJO DE SIDEBAR COLAPSADO (SOLO ICONOS) */
+.sidebar-collapsed {
+  --sidebar: 76px !important;
+}
+.sidebar-collapsed .sidebar {
+  width: 76px !important;
+  padding: 12px 6px 0 !important;
+  align-items: center !important;
+}
+.sidebar-collapsed .workspace {
+  margin-left: 76px !important;
+}
+.sidebar-collapsed .brand-row {
+  width: 100% !important;
+  padding: 0 4px !important;
+  justify-content: center !important;
+  gap: 4px !important;
+}
+.sidebar-collapsed .brand {
+  font-size: 24px !important;
+  display: none !important;
+}
+.sidebar-collapsed .collapse-button {
+  display: inline-flex !important;
+  color: #7c3aed !important;
+  background: #f3e8ff !important;
+  margin: 0 auto !important;
+}
+.sidebar-collapsed .company-active-badge {
+  padding: 4px !important;
+  margin: 8px 0 !important;
+  justify-content: center !important;
+  width: 44px !important;
+  border-radius: 8px !important;
+}
+.sidebar-collapsed .company-text,
+.sidebar-collapsed .sidebar-tagline,
+.sidebar-collapsed .nav-label,
+.sidebar-collapsed .nav-text,
+.sidebar-collapsed .nav-count-fiscal,
+.sidebar-collapsed .active-dot,
+.sidebar-collapsed .help-card,
+.sidebar-collapsed .sidebar-profile span,
+.sidebar-collapsed .sidebar-profile svg:last-child {
+  display: none !important;
+}
+.sidebar-collapsed .nav-item {
+  width: 44px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  margin: 3px auto !important;
+  border-radius: 8px !important;
+}
+.sidebar-collapsed .nav-icon {
+  margin: 0 !important;
+}
+.sidebar-collapsed .sidebar-profile-box {
+  width: 100% !important;
+  margin: 8px 0 !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+}
+.sidebar-collapsed .sidebar-profile {
+  padding: 0 !important;
+  justify-content: center !important;
+  width: 44px !important;
+}
+.sidebar-collapsed .sidebar-logout-btn {
+  margin: 0 auto !important;
+}
+
+/* RESPONSIVE OPTIMIZATIONS PARA MÓVIL, TABLET Y ESCRITORIO */
+@media (max-width: 800px) {
+  .seniat-status-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .seniat-controls {
+    text-align: left;
+  }
+  .audit-filter-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .audit-filter-bar .date-inputs {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .bcv-rate-pill {
+    display: inline-flex;
+    padding: 3px 8px;
+    font-size: 9.5px;
+  }
+  .header-logo-container {
+    max-width: 100px;
+    height: 30px;
+  }
+  .header-company-info strong {
+    font-size: 11px;
+  }
+  .header-company-info small {
+    font-size: 9px;
+  }
+  .production-header-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px;
+  }
+  .production-kanban-board {
+    grid-template-columns: 1fr !important;
+  }
+  .invoice-items-section th,
+  .invoice-items-section td {
+    padding: 6px 8px !important;
+    font-size: 9px !important;
+  }
+  .receipt-totals-panel {
+    padding: 10px !important;
+  }
+  .receipt-payments-panel {
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    height: 58px !important;
+    padding: 0 8px !important;
+  }
+  .header-logo-container {
+    max-width: 32px !important;
+    min-width: 32px !important;
+    height: 32px !important;
+    padding: 1px !important;
+  }
+  .header-company-info {
+    max-width: 110px !important;
+  }
+  .header-company-info strong {
+    font-size: 10.5px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .header-company-info small {
+    font-size: 8px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bcv-rate-pill {
+    padding: 2px 6px !important;
+    font-size: 8.5px !important;
+    gap: 3px !important;
+  }
+  .bcv-rate-pill .bcv-dot {
+    width: 5px;
+    height: 5px;
+  }
+  .topbar-right {
+    gap: 5px !important;
+  }
+  .currency-select {
+    width: 54px !important;
+    font-size: 8.5px !important;
+  }
+  .icon-button {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .welcome-banner {
+    padding: 14px !important;
+  }
+  .welcome-copy h2 {
+    font-size: 17px !important;
+  }
+  .welcome-copy p {
+    font-size: 9.5px !important;
+  }
+  .kpi-card {
+    padding: 12px !important;
+  }
+  .kpi-value {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .global-search {
+    display: none;
+  }
+  .login-card {
+    padding: 24px 18px !important;
+  }
+  .topbar {
+    padding: 0 8px !important;
+  }
+  .main-content {
+    padding: 14px 8px 0 !important;
+  }
+}
+
+
+/* ============ MÓDULO DE NÓMINA (CLASES ESCOPADAS .payroll-) ============ */
+.payroll-scope .payroll-hero {
+  display: flex; align-items: center; justify-content: space-between; gap: 18px;
+  padding: 22px 26px; border-radius: 13px; color: #fff;
+  background: linear-gradient(120deg, #3f2a7a 0%, #6d28d9 55%, #8b5cf6 100%);
+  box-shadow: 0 12px 34px rgba(76, 29, 149, .22);
+}
+.payroll-scope .payroll-hero h2 { font-size: 20px; font-weight: 800; letter-spacing: -.4px; margin: 5px 0 6px; }
+.payroll-scope .payroll-hero p { font-size: 11px; color: #ede9fe; max-width: 720px; line-height: 1.65; }
+.payroll-scope .payroll-eyebrow { font-size: 8.5px; font-weight: 800; letter-spacing: 1.3px; color: #ddd6fe; }
+.payroll-scope .payroll-mini {
+  background: #f8fafc; border: 1px solid #e7ecf3; border-radius: 10px; padding: 13px 15px;
+}
+.payroll-scope .payroll-mini span { display: block; font-size: 10px; color: #64748b; font-weight: 600; }
+.payroll-scope .payroll-mini strong { display: block; margin-top: 5px; font-size: 18px; font-family: ui-monospace, SFMono-Regular, monospace; color: #4c1d95; }
+.payroll-scope .payroll-mini.total { background: linear-gradient(135deg, #6d28d9, #4c1d95); border-color: #6d28d9; }
+.payroll-scope .payroll-mini.total span { color: #e9d5ff; }
+.payroll-scope .payroll-mini.total strong { color: #fff; font-size: 21px; }
+.payroll-scope .payroll-lines h4 { font-size: 10px; letter-spacing: .9px; text-transform: uppercase; color: #6d28d9; margin: 12px 0 5px; }
+.payroll-scope .payroll-lines > div { display: flex; justify-content: space-between; gap: 14px; padding: 8px 3px; border-bottom: 1px solid #eef1f6; font-size: 11px; }
+.payroll-scope .payroll-lines span { color: #475569; }
+.payroll-scope .payroll-lines small { display: block; font-size: 9px; color: #94a3b8; margin-top: 3px; }
+.payroll-scope .payroll-lines strong { color: #4c1d95; font-family: ui-monospace, SFMono-Regular, monospace; white-space: nowrap; }
+@media (max-width: 700px) {
+  .payroll-scope .payroll-hero { flex-direction: column; align-items: flex-start; padding: 18px; }
+}

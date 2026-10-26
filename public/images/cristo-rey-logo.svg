@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100">
+  <defs>
+    <linearGradient id="crGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2B84D" />
+      <stop offset="50%" stop-color="#C8972E" />
+      <stop offset="100%" stop-color="#9A6F17" />
+    </linearGradient>
+    <linearGradient id="crShield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <!-- Shield with Crown -->
+  <g transform="translate(10, 8)">
+    <path d="M42 4 L80 18 C80 58 42 76 42 76 C42 76 4 58 4 18 Z" fill="url(#crShield)" stroke="url(#crGold)" stroke-width="2.5" />
+    <!-- Crown -->
+    <path d="M26 30 L32 44 L42 32 L52 44 L58 30 L56 50 L28 50 Z" fill="url(#crGold)" />
+    <!-- Cross on top -->
+    <path d="M42 22 L42 28 M39 25 L45 25" stroke="url(#crGold)" stroke-width="2" stroke-linecap="round" />
+    <!-- Needle and Thread symbol (fabrica) -->
+    <circle cx="42" cy="58" r="4" fill="none" stroke="#E2B84D" stroke-width="1.5" />
+    <path d="M38 60 Q 42 66 46 60" fill="none" stroke="#E2B84D" stroke-width="1.5" />
+  </g>
+  <!-- Brand Text -->
+  <text x="105" y="42" font-family="'Inter', sans-serif" font-weight="800" font-size="24" fill="#0F172A" letter-spacing="-0.5">CRISTO REY</text>
+  <text x="105" y="62" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#C8972E" letter-spacing="2.8">FABRICACIÓN · BORDADO · DTF</text>
+  <text x="105" y="78" font-family="'Inter', sans-serif" font-weight="400" font-size="9" fill="#64748B" letter-spacing="0.5">RIF: J-40912384-9 · Caracas, Venezuela</text>
+</svg>

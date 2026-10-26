@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" width="260" height="70">
+  <defs>
+    <linearGradient id="tesorioGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+  <!-- Modern Geometric T / Vault Icon -->
+  <g transform="translate(10, 10)">
+    <rect width="50" height="50" rx="14" fill="url(#tesorioGrad)" />
+    <path d="M16 20 L34 20 M25 20 L25 38" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="36" cy="34" r="3.5" fill="#34D399" />
+  </g>
+  <text x="72" y="43" font-family="'Inter', sans-serif" font-weight="800" font-size="28" fill="#1E1B4B" letter-spacing="-1">tesorio<tspan fill="#7C3AED">.</tspan></text>
+</svg>
